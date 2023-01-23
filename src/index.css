@@ -2,7 +2,7 @@
 @tailwind components;
 
 .wrp1 {
-  @apply h-[120vh] w-[100%] pl-[10rem] bg-blue-50;
+  @apply h-[150vh] w-[100%] pl-[8rem] flex flex-col gap-[5rem];
 }
 @tailwind utilities;
 @layer base {

@@ -4,6 +4,9 @@
 .wrp1 {
   @apply h-[150vh] w-[100%] pl-[8rem] flex flex-col gap-[5rem];
 }
+.wrp2 {
+  @apply h-fit w-[100%] p-[8rem] flex flex-col gap-[5rem];
+}
 @tailwind utilities;
 @layer base {
   html {

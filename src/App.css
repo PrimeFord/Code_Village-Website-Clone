@@ -1,0 +1,23 @@
+.profile {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.cap {
+  width: 85%;
+}
+.cap h4 {
+  font-size: 1.4rem;
+  color: #1b734f;
+  padding-bottom: 0.5rem;
+}
+.inf {
+  font-weight: 500;
+  font-size: 1.15rem;
+}
+.gr {
+  font-size: 1.15rem;
+  color: #c2c2c2;
+}

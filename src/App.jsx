@@ -69,17 +69,17 @@ function App() {
             alt=""
           />
         </div>
-        <div className="w-[100%] h-[10rem] flex justify-between">
-          <div className="h-[100%] flex align-top w-[30%]">
-            <div className="w-[20%]">
+        <div className="w-[100%] h-[10rem] flex text-[#3e4462] justify-between">
+          <div className="h-[100%] flex align-top w-[31.5%]">
+            <div className="w-[17%]">
               <img
                 className="w-[3rem] h-[3rem]"
                 src="/image/bookmark.svg"
                 alt=""
               />
             </div>
-            <div className="w-[80%]">
-              <p className="text-[2rem] font-small leading-9">
+            <div className="w-[83%]">
+              <p className="text-[1.75rem] font-small leading-9">
                 Web & Mobile Development
               </p>
               <p className="mt-[.5rem] text-[1.1rem] font-small">
@@ -88,12 +88,12 @@ function App() {
               </p>
             </div>
           </div>
-          <div className="h-[100%] flex align-top w-[30%]">
-            <div className="w-[20%]">
+          <div className="h-[100%] flex align-top w-[31.5%]">
+            <div className="w-[17%]">
               <img className="w-[3rem] h-[3rem]" src="/image/tent.svg" alt="" />
             </div>
-            <div className="w-[80%]">
-              <p className="text-[2rem] font-small leading-9">
+            <div className="w-[83%]">
+              <p className="text-[1.75rem] font-small leading-9">
                 Bootcamps & Trainings
               </p>
               <p className="mt-[.5rem] text-[1.1rem] font-small">
@@ -101,16 +101,16 @@ function App() {
               </p>
             </div>
           </div>
-          <div className="h-[100%] flex align-top w-[30%]">
-            <div className="w-[20%]">
+          <div className="h-[100%] flex align-top w-[31.5%]">
+            <div className="w-[17%]">
               <img
                 className="w-[3rem] h-[3rem]"
                 src="/image/workspace.svg"
                 alt=""
               />
             </div>
-            <div className="w-[80%]">
-              <p className="text-[2rem] font-small leading-9">
+            <div className="w-[83%]">
+              <p className="text-[1.75rem] font-small leading-9">
                 Workspaces & Tech Hub
               </p>
               <p className="mt-[.5rem] text-[1.1rem] font-small">
@@ -189,6 +189,111 @@ function App() {
           <img src="/image/figma.svg"></img>
         </div>
       </div>
+      <div className="wrp5">
+        <p className=" w-[50%] text-[#18214d] text-[3.25rem] leading-[3.2rem] font-medium tracking-[0em] m-[auto] ">
+          Codevillage Kids & Teens Code Classes
+        </p>
+        <p className=" w-[75%] text-[#18214d] text-[1.2rem] font-small leading-[1.8rem] pt-5 m-[auto] ">
+          Will your kids be able to build a tech solution? Yes, It’s possible.
+          <br />
+          “We catch them young” by introducing these fresh minds into how
+          computer works and how
+          <br /> to make it do what they want.
+        </p>
+        <div className="w-[fit-content] text-[#18214d] text-[1.2rem] font-medium leading-[1.8rem] pt-5 m-[auto] flex gap-2">
+          Secure a spot for your kid now
+          <span>
+            <img src="/image/arrow-right.svg" />
+          </span>
+        </div>
+      </div>
+      <footer className="wrp6">
+        <div className="flex justify-between gap-[5rem] text-[#3e4462]">
+          <div className="w-[12rem]  h-fit grid gap-4">
+            <p>
+              <img
+                className="w-[100%] h-[100%]"
+                src="./image/cv-logo.svg"
+                alt=""
+              />
+            </p>
+            <p className="w-[fit-content] text-[1.25rem] font-small leading-[1.8rem]">
+              Building the tech talents for the future of work.
+            </p>
+          </div>
+          <div className="w-[12rem]  h-fit grid gap-4">
+            <p className="w-[fit-content] text-[1.25rem] font-bold pb-4 leading-[1.8rem]">
+              Our Programs
+            </p>
+            <p className="w-[fit-content] text-[1.25rem] font-small leading-[1.8rem]">
+              Fullstack Training
+            </p>
+            <p className="w-[fit-content] text-[1.25rem] font-small leading-[1.8rem]">
+              Kids & Teens Code Classes
+            </p>
+          </div>
+          <div className="w-[12rem]  h-fit grid gap-4">
+            <p className="w-[fit-content] text-[1.25rem] font-bold pb-4 leading-[1.8rem]">
+              Links
+            </p>
+            <p className="w-[fit-content] text-[1.25rem] font-small leading-[1.8rem]">
+              Careers
+              <br /> Refund Policy
+            </p>
+            <p className="w-[fit-content] text-[1.25rem] font-small leading-[1.8rem]">
+              Privacy Policy
+            </p>
+          </div>
+          <div className="w-[12rem] h-fit grid gap-4">
+            <p className="w-[fit-content] text-[1.25rem] font-bold pb-4 leading-[1.8rem]">
+              Contacts
+            </p>
+            <p className="w-[fit-content] text-[1.25rem] font-small leading-[1.8rem]">
+              Rasak Onilu Plaza (Middle Floor), Adjacent Niger Motel, Niger
+              Road, Ilorin, Nigeria
+            </p>
+            <p className="w-[fit-content] text-[1.25rem] font-bold leading-[1.8rem]">
+              08168861541 (Nigeria)
+            </p>
+            <p className="w-[fit-content] text-[1.25rem] font-bold leading-[1.8rem]">
+              +1 (707) 681-1531 (International)
+            </p>
+            <p className="w-[fit-content] text-[1.25rem] font-bold leading-[1.8rem]">
+              +1 (707) 681-1531 (Whatsapp)
+            </p>
+            <p className="w-[fit-content] text-[1.25rem] font-bold leading-[1.8rem]">
+              hello@codevillage.ng
+            </p>
+          </div>
+        </div>
+        <div className="flex justify-between py-8 border-t border-gray-500">
+          <p className="w-[fit-content] text-[#6e6e6e] text-[1.15rem] font-small leading-[1.8rem]">
+            Copyright © 2020-2023 Codevillage Limited
+          </p>
+          <div className=" flex gap-5 #">
+            <img
+              className="h-[2rem] w-[2rem]"
+              src="/image/fb.svg"
+              alt="facebook"
+            />
+            <img
+              className="h-[2rem] w-[2rem]"
+              src="/image/tw.svg"
+              alt="twitter"
+            />
+            <img
+              className="h-[2rem] w-[2rem]"
+              src="/image/github.svg"
+              alt="github"
+            />
+            <img
+              className="h-[2rem] w-[2rem]"
+              src="/image/location.svg"
+              alt="location"
+            />
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }

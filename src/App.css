@@ -1,3 +1,6 @@
+.wrp1 {
+  background: url("/image/contour.svg");
+}
 .profile {
   width: 100%;
   display: flex;

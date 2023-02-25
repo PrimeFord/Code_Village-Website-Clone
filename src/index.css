@@ -13,6 +13,12 @@
 .wrp4 {
   @apply h-fit w-[100%] p-[8rem] block content-center items-center gap-[10rem] bg-[#d3d3d348];
 }
+.wrp5 {
+  @apply h-fit w-[100%] p-[8rem] block gap-[10rem] text-center justify-center;
+}
+.wrp6 {
+  @apply h-fit w-[100%] pb-0 p-[8rem] grid gap-[5rem] justify-center bg-[#d3d3d348];
+}
 
 @tailwind utilities;
 @layer base {

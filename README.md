@@ -1,4 +1,4 @@
-# Code_Village-Website-Clone
+# Code Village Website Clone
 
 Code Village Website Clone: This project is a clone of code village official website. it is fully responsive on a mobile phone
 
@@ -25,6 +25,7 @@ Clone or download this repository and run with a local server of open `index.htm
 - CSS
 - ReactJS
 - Vite
+- Tailwind-CSS
 
 ## Preview
 

@@ -29,7 +29,7 @@ Clone or download this repository and run with a local server of open `index.htm
 
 ## Preview
 
-[Preview Here](https://beautiful-heliotrope-b80911.netlify.apph)
+[Preview Here](https://beautiful-heliotrope-b80911.netlify.app)
 
 ![screenshot](./media/snip.png)
 

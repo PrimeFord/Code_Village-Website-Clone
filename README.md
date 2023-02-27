@@ -25,6 +25,7 @@ Clone or download this repository and run with a local server of open `index.htm
 - CSS
 - ReactJS
 - Vite
+- Tailwind-CSS
 
 ## Preview
 

@@ -24,3 +24,8 @@
   font-size: 1.15rem;
   color: #c2c2c2;
 }
+@media (max-width: 640px) {
+  :root {
+    font-size: 10px;
+  }
+}

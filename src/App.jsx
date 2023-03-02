@@ -13,7 +13,7 @@ function App() {
           <img className="logo" src="./image/cv-logo.svg" alt="" />
         </div>
         <div className="talk">
-          <p className="w-[35%] text-[#18214d] text-[5rem] font-medium leading-[5rem]">
+          <p className="world w-[35%] text-[#18214d] text-[5rem] font-medium leading-[5rem]">
             We build world class Tech talents
           </p>
           <p className="w-[50%] mt-[1.5rem] text-[#18214d] text-[1.5rem] font-small leading-[2rem]">

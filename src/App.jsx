@@ -8,9 +8,9 @@ function App() {
 
   return (
     <div className="App">
-      <div className="wrp1">
-        <div className="py-[4rem]">
-          <img src="./image/cv-logo.svg" alt="" />
+      <div className=" wrp1">
+        <div className="log py-[4rem]">
+          <img className="logo" src="./image/cv-logo.svg" alt="" />
         </div>
         <div className="talk">
           <p className="w-[35%] text-[#18214d] text-[5rem] font-medium leading-[5rem]">
@@ -46,7 +46,7 @@ function App() {
             alt="location"
           />
         </div>
-        <div className="absolute left-[29%]">
+        <div className="bg absolute left-[29%]">
           <img src="./image/wallpaper.png" alt="" />
         </div>
       </div>

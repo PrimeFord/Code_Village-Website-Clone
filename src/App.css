@@ -28,4 +28,15 @@
   :root {
     font-size: 10px;
   }
+  .log {
+    height: 1.5rem;
+    width: 3rem;
+  }
+  .logo {
+    height: ;
+    width: fit-content;
+  }
+  .bg {
+    display: none;
+  }
 }

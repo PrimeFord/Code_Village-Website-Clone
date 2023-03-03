@@ -286,7 +286,7 @@
     padding: 8rem;
     display: flex;
     flex-wrap: wrap;
-    gap: 8rem;
+    gap: 7.5rem;
   }
   .wrp5 {
     height: fit-content;

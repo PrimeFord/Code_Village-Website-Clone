@@ -252,6 +252,7 @@
     flex-direction: column;
     padding-left: 0;
     gap: 5rem;
+    border-left: none;
   }
   .cap {
     width: 85%;

@@ -2,19 +2,19 @@
 @tailwind components;
 
 .wrp1 {
-  @apply h-[150vh] w-[100%] pl-[8rem] flex flex-col gap-[5rem];
+  @apply flex flex-col gap-[5rem];
 }
 .wrp2 {
-  @apply h-fit w-[100%] p-[8rem] flex flex-col gap-[5rem];
+  @apply h-fit w-[100%] flex flex-col;
 }
 .wrp3 {
-  @apply h-fit w-[100%] p-[8rem] flex items-center gap-[5rem] bg-[#d3d3d381];
+  @apply h-fit w-[100%] flex items-center bg-[#d3d3d381];
 }
 .wrp4 {
-  @apply h-fit w-[100%] p-[8rem] block content-center items-center gap-[10rem] bg-[#d3d3d348];
+  @apply h-fit w-[100%]  content-center items-center  bg-[#d3d3d348];
 }
 .wrp5 {
-  @apply h-fit w-[100%] p-[8rem] block gap-[10rem] text-center justify-center;
+  @apply h-fit w-[100%]  block text-center justify-center;
 }
 .wrp6 {
   @apply h-fit w-[100%] pb-0 p-[8rem] grid gap-[5rem] justify-center bg-[#d3d3d348];

@@ -1,5 +1,88 @@
 .wrp1 {
   background: url("/image/contour.svg");
+  padding-left: 8rem;
+  height: 150vh;
+  width: 100%;
+}
+.log {
+  padding: 4rem 0rem;
+}
+.world {
+  width: 35%;
+  font-size: 5rem;
+}
+.wrld {
+  width: 50%;
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.btn {
+  height: 3rem;
+  width: 10rem;
+  margin-top: 3rem;
+}
+.social {
+  gap: 1.25rem;
+}
+.h {
+  height: 2rem;
+  width: 2rem;
+}
+.wrp2 {
+  padding: 8rem;
+  gap: 5rem;
+}
+.first1 {
+  width: 50%;
+  font-size: 3rem;
+  line-height: 3rem;
+}
+.first2 {
+  width: 39%;
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+}
+.pic img {
+  border-radius: 1rem;
+}
+.schedule {
+  height: 10rem;
+}
+.w {
+  width: 31.5%;
+}
+.te {
+  font-size: 1.75rem;
+  line-height: 2.25rem;
+}
+.x {
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+}
+.wrp3 {
+  padding: 8rem;
+  gap: 5rem;
+}
+.sec1 {
+  width: 65%;
+}
+.sec1 p:first-child {
+  /* font-size: 1.1rem; */
+  line-height: 3.2rem;
+}
+.sec1 p:nth-child(2) {
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+}
+.sec2 {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  padding-left: 3.5rem;
+  border-left: 1px solid rgba(128, 128, 128, 0.5);
+  gap: 1.75rem;
 }
 .profile {
   width: 100%;
@@ -24,26 +107,199 @@
   font-size: 1.15rem;
   color: #c2c2c2;
 }
+.wrp4 {
+  display: flex;
+  flex-direction: column;
+  padding: 8rem;
+  gap: 10rem;
+}
+.bl {
+  width: 60%;
+  line-height: 1.8rem;
+  font-size: 1.25rem;
+}
+.lang {
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+.wrp5 {
+  height: fit-content;
+  width: 100%;
+  padding: 8rem;
+  gap: 10rem;
+}
+.for {
+  width: 50%;
+  font-size: 3.25rem;
+  line-height: 3.2rem;
+}
+
 @media (max-width: 640px) {
   :root {
     font-size: 10px;
   }
   .wrp1 {
-    height: 100vh;
+    height: fit-content;
     width: 100%;
-    padding: 0rem 4rem;
+    padding: 0rem 4.5rem 6rem;
+    gap: 2rem;
   }
   .log {
     padding: 6rem 0rem;
   }
   .logo {
-    height: 9rem;
-    width: 18rem;
+    height: 5rem;
+    width: 13rem;
   }
   .world {
     width: 100%;
+    font-size: 4rem;
+    font-weight: 400;
+  }
+  .wrld {
+    width: 100%;
+    margin-top: 2.5rem;
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  .btn {
+    height: 5.5rem;
+    width: 17rem;
+    font-size: 2rem;
+    margin-top: 4rem;
+  }
+  .social {
+    gap: 2rem;
+  }
+  .h {
+    height: 3.5rem;
+    width: 3.5rem;
   }
   .bg {
     display: none;
+  }
+  .wrp2 {
+    height: fit-content;
+    width: 100%;
+    padding: 8rem 2.5rem;
+    gap: 4rem;
+  }
+  .first {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .first1 {
+    width: 100%;
+    font-size: 3.5rem;
+    line-height: 4rem;
+  }
+  .first2 {
+    width: 100%;
+    font-size: 1.8rem;
+    line-height: 2.75rem;
+  }
+  .pic {
+  }
+  .pic img {
+    border-radius: 1.25rem;
+  }
+  .schedule {
+    flex-direction: column;
+    height: fit-content;
+    gap: 5rem;
+  }
+  .w {
+    width: 100%;
+  }
+  .w img {
+    height: 4.5rem;
+    width: 4.5rem;
+  }
+  .te {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+  }
+  .x {
+    font-size: 1.75rem;
+    margin-top: 1rem;
+  }
+  .wrp3 {
+    display: flex;
+    flex-direction: column;
+    padding: 8rem 2.5rem;
+    gap: 5rem;
+  }
+  .sec1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .sec1 p:first-child {
+    line-height: 4rem;
+  }
+
+  .sec1 p:nth-child(2) {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+  }
+  .sec2 {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    gap: 5rem;
+  }
+  .cap {
+    width: 85%;
+  }
+  .cap h4 {
+    font-size: 2.25rem;
+    color: #1b734f;
+    padding-bottom: 0.5rem;
+  }
+  .inf {
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: #3d3d3d;
+  }
+  .gr {
+    font-size: 1.8rem;
+    color: #c2c2c2;
+  }
+  .wrp4 {
+    display: flex;
+    flex-direction: column;
+    padding: 8rem 2.5rem;
+    gap: 3rem;
+  }
+  .bl {
+    width: 100%;
+    line-height: 3rem;
+    font-size: 2rem;
+  }
+  .lang {
+    padding: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7.5rem;
+  }
+  .wrp5 {
+    height: fit-content;
+    width: 100%;
+    padding: 8rem 4rem;
+    gap: 2rem;
+  }
+  .for {
+    width: 100%;
+    font-size: 3.25rem;
+    line-height: 3.2rem;
+  }
+  .abt {
+    display: flex;
+    flex-direction: column;
   }
 }

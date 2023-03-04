@@ -32,7 +32,6 @@ Clone or download this repository and run with a local server of open `index.htm
 [Preview Here](https://beautiful-heliotrope-b80911.netlify.app)
 
 ![screenshot](./public/image/snip.png)
-![screenshot](./public/image/snip1.png)
 ![screenshot](./public/image/snip2.png)
 ![screenshot](./public/image/snip3.png)
 ![screenshot](./public/image/snip4.png)

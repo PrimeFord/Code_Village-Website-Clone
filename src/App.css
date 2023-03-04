@@ -335,6 +335,7 @@
     flex-direction: column;
     padding-left: 0;
     gap: 5rem;
+    border-left: none;
   }
   .cap {
     width: 85%;
@@ -365,7 +366,7 @@
     font-size: 2rem;
   }
   .lang {
-    padding: 5rem;
+    padding: 8rem;
     display: flex;
     flex-wrap: wrap;
     gap: 7.5rem;

@@ -171,14 +171,14 @@ function App() {
         <p className="for text-[#18214d]  font-medium tracking-[0em] m-[auto] ">
           Codevillage Kids & Teens Code Classes
         </p>
-        <p className=" w-[75%] text-[#18214d] text-[1.2rem] font-small leading-[1.8rem] pt-5 m-[auto] ">
+        <p className="for2 text-[#18214d]  font-small m-[auto] ">
           Will your kids be able to build a tech solution? Yes, It’s possible.
           <br />
           “We catch them young” by introducing these fresh minds into how
           computer works and how
           <br /> to make it do what they want.
         </p>
-        <div className="w-[fit-content] text-[#18214d] text-[1.2rem] font-medium leading-[1.8rem] pt-5 m-[auto] flex gap-2">
+        <div className="for3 w-[fit-content] text-[#18214d]  font-medium   m-[auto] ">
           Secure a spot for your kid now
           <span>
             <img src="/image/arrow-right.svg" />
@@ -186,8 +186,8 @@ function App() {
         </div>
       </div>
       <footer className="wrp6">
-        <div className="abt flex justify-between gap-[5rem] text-[#3e4462]">
-          <div className="w-[12rem]  h-fit grid gap-4">
+        <div className="abt  flex justify-between  text-[#3e4462]">
+          <div className="abti h-fit grid">
             <p>
               <img
                 className="w-[100%] h-[100%]"
@@ -195,14 +195,12 @@ function App() {
                 alt=""
               />
             </p>
-            <p className="w-[fit-content] text-[1.25rem] font-small leading-[1.8rem]">
+            <p className=" font-small">
               Building the tech talents for the future of work.
             </p>
           </div>
-          <div className="w-[12rem]  h-fit grid gap-4">
-            <p className="w-[fit-content] text-[1.25rem] font-bold pb-4 leading-[1.8rem]">
-              Our Programs
-            </p>
+          <div className="abt1 h-fit grid">
+            <p className="hed font-bold">Our Programs</p>
             <p className="w-[fit-content] text-[1.25rem] font-small leading-[1.8rem]">
               Fullstack Training
             </p>
@@ -210,10 +208,8 @@ function App() {
               Kids & Teens Code Classes
             </p>
           </div>
-          <div className="w-[12rem]  h-fit grid gap-4">
-            <p className="w-[fit-content] text-[1.25rem] font-bold pb-4 leading-[1.8rem]">
-              Links
-            </p>
+          <div className="abt1 h-fit grid">
+            <p className="hed font-bold">Links</p>
             <p className="w-[fit-content] text-[1.25rem] font-small leading-[1.8rem]">
               Careers
               <br /> Refund Policy
@@ -222,10 +218,8 @@ function App() {
               Privacy Policy
             </p>
           </div>
-          <div className="w-[12rem] h-fit grid gap-4">
-            <p className="w-[fit-content] text-[1.25rem] font-bold pb-4 leading-[1.8rem]">
-              Contacts
-            </p>
+          <div className="abt1 h-fit grid">
+            <p className="hed font-bold ">Contacts</p>
             <p className="w-[fit-content] text-[1.25rem] font-small leading-[1.8rem]">
               Rasak Onilu Plaza (Middle Floor), Adjacent Niger Motel, Niger
               Road, Ilorin, Nigeria
@@ -244,31 +238,15 @@ function App() {
             </p>
           </div>
         </div>
-        <div className="flex justify-between py-8 border-t border-gray-500">
-          <p className="w-[fit-content] text-[#6e6e6e] text-[1.15rem] font-small leading-[1.8rem]">
+        <div className="foot flex justify-between">
+          <p className=" text-[#6e6e6e] font-small ">
             Copyright © 2020-2023 Codevillage Limited
           </p>
-          <div className=" flex gap-5 #">
-            <img
-              className="h-[2rem] w-[2rem]"
-              src="/image/fb.svg"
-              alt="facebook"
-            />
-            <img
-              className="h-[2rem] w-[2rem]"
-              src="/image/tw.svg"
-              alt="twitter"
-            />
-            <img
-              className="h-[2rem] w-[2rem]"
-              src="/image/github.svg"
-              alt="github"
-            />
-            <img
-              className="h-[2rem] w-[2rem]"
-              src="/image/location.svg"
-              alt="location"
-            />
+          <div className="social2 flex">
+            <img className="h2" src="/image/fb.svg" alt="facebook" />
+            <img className="h2" src="/image/tw.svg" alt="twitter" />
+            <img className="h2" src="/image/github.svg" alt="github" />
+            <img className="h2" src="/image/location.svg" alt="location" />
           </div>
         </div>
       </footer>
